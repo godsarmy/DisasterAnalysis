@@ -15,14 +15,26 @@ The project to analyze disaster such as earthquake, tsunami, typhoon, etc
 
 * Start mongodb:
 
+<<<<<<< HEAD
 $ mongod
 
 * Gather inform:
 
 $ cd scrapy/quake/bin
+=======
+  $ mongod
 
-$ ./run_get_csi_data.sh
+* Gather inform:
+>>>>>>> Update README
+
+  $ cd scrapy/quake/bin
+
+  $ ./run_get_csi_data.sh
 
 * Start web server:
 
+<<<<<<< HEAD
 $ ./demo.py
+=======
+  $ ./demo.py
+>>>>>>> Update README
