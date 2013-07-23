@@ -15,17 +15,9 @@ The project to analyze disaster such as earthquake, tsunami, typhoon, etc
 
 * Start mongodb:
 
-<<<<<<< HEAD
-$ mongod
-
-* Gather inform:
-
-$ cd scrapy/quake/bin
-=======
   $ mongod
 
 * Gather inform:
->>>>>>> Update README
 
   $ cd scrapy/quake/bin
 
@@ -33,8 +25,4 @@ $ cd scrapy/quake/bin
 
 * Start web server:
 
-<<<<<<< HEAD
-$ ./demo.py
-=======
   $ ./demo.py
->>>>>>> Update README
