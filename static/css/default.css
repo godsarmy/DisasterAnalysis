@@ -1,0 +1,19 @@
+body { 
+    padding-top: 60px; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+    background-attachment: fixed;
+    background-position: left 40px;
+}
+
+hr {
+  border-top: 1px solid darkgrey;
+}
+
+.area{
+    background-color: white;
+    padding: 19px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 30px #ccc;
+}

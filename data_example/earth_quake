@@ -1,0 +1,25 @@
+{
+    "name": "Wenchuan",
+    "chinesename": "汶川",
+    "nation": "China",
+    "type": "earthquake",
+    "longtitude": 131,
+    "latitude": 23,
+    "timestamp": 1233333,
+    "source": "csi",
+    "source_url": "http://adfasdfa",
+
+    "details": {
+        "depth": 12,
+        "magitude": 6.6
+    },
+
+    "reference": {
+        "usgs: "_id(xxx)",
+        ...
+    },
+
+    "related": [
+        "_id(xxx)"
+    ],
+}
