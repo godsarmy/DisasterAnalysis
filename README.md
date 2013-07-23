@@ -3,7 +3,7 @@ DisasterAnalysis
 
 The project to analyze disaster such as earthquake, tsunami, typhoon, etc
 
-[![main page](https://github.com/godsarmy/DisasterAnalysis/raw/master/screenshot/main.png)](#features)
+[![main page](https://raw.github.com/godsarmy/DisasterAnalysis/master/screenshot/main.png)](#features)
 
 * Guide:
 
