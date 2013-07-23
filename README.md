@@ -3,6 +3,8 @@ DisasterAnalysis
 
 The project to analyze disaster such as earthquake, tsunami, typhoon, etc
 
+[![main page](https://github.com/godsarmy/DisasterAnalysis/raw/master/screenshot/main.png)](#features)
+
 * Guide:
 
 1. Install Mongodb (http://www.mongodb.org/)
