@@ -51,7 +51,8 @@
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">主页</a></li>
+          <li {% if app_name == "detail-map" or app_name == "index-map" %}class="active"{% end %}><a href="/">主页</a></li>
+          <li {% if app_name == "statistics-map" %}class="active"{% end %}><a href="statistics">分析</a></li>
           <li><a href="mailto:godsarmycy@gmail.com">联系我们</a></li>
         </ul>
         <h1 class="muted"><img src="static/img/favicon.png" style="border:10;width:52px;height:52px;"/><a href="/"> {{ project_name }}</a></h1>

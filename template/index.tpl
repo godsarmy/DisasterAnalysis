@@ -8,6 +8,7 @@
     </style>
 {% end %}
 {% block container %}
+  
 <div ng-controller="IndexController">
   <div class="row-fluid">
     {% import time %}

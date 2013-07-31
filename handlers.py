@@ -47,3 +47,9 @@ class AjaxDetailHandler(tornado.web.RequestHandler):
         (early_quakes, late_quakes) = self.model.get_events_in_range(latitude, longitude, timestamp, timerange)
         self.write(json_encode({"early_events": early_quakes, "late_events": late_quakes}))
 
+class StatisticsHandler(tornado.web.RequestHandler):
+    def get(self):
+        self.render("statistics.tpl",
+                    project_name=self.settings["globals"]["project_name"],
+                    app_name="statistics-map",
+                   )

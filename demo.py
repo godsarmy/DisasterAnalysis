@@ -20,6 +20,7 @@ def load_app(port, root):
         (r"/", MainHandler),
         (r"/detail", DetailHandler),
         (r"/ajax-detail", AjaxDetailHandler),
+        (r"/statistics", StatisticsHandler),
     ]
 
     application = web.Application(
